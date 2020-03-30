@@ -12,4 +12,4 @@ class _Rule34(object):
             index = random.randint(0, len(images))
             return images[index]
         except:
-            return "Nenhuma imagem encontrada"
+            return None
